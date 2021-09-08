@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Convertidor</string>
+    <string name="mph_header">millas por hora</string>
+    <string name="knots_header">nudos</string>
+    <string name="nauticalMiles_header">millas náuticas</string>
+    <string name="statuteMiles_header">millas terrestres</string>
+    <string name="compassHeading_header">rumbo de la brújula</string>
+    <string name="reciprocalHeading_header">rumbo recíproco de la brújula</string>
+    <string name="convert_button">convertir!</string>
+    <string name="empty_value">0</string>
+    <string name="options_title">opciones</string>
+    <string name="clear_text">Pantalla clara</string>
+    <string name="about">acerca de</string>
+    <string name="dialog_text">Esta aplicación fue creada por Damian Walker en noviembre de 2020. ¿Qué tan genial es eso?</string>
+    <string name="pretty_neatButton">¡Con buena pinta!</string>
+    <string name="not_neatButton">No aseado en absoluto.</string>
+
+</resources>

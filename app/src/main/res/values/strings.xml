@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Converter</string>
+    <string name="mph_header">MPH</string>
+    <string name="knots_header">Knots</string>
+    <string name="nauticalMiles_header">Nautical Miles</string>
+    <string name="statuteMiles_header">Statute Miles</string>
+    <string name="compassHeading_header">Compass Heading</string>
+    <string name="reciprocalHeading_header">Reciprocal Heading</string>
+    <string name="convert_button">Convert!</string>
+    <string name="empty_value">0</string>
+    <string name="options_title">Options</string>
+    <string name="clear_text">Clear Screen</string>
+    <string name="about">About</string>
+    <string name="dialog_text">This application was created by Damian Walker in November of 2020. How neat is that?</string>
+    <string name="pretty_neatButton">Pretty Neat!</string>
+    <string name="not_neatButton">Not Neat at all.</string>
+</resources>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/knotsOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="29dp"
+        android:text="@string/empty_value"
+        app:layout_constraintStart_toStartOf="@+id/mphHeader"
+        app:layout_constraintTop_toBottomOf="@+id/mphHeader" />
+
+    <EditText
+        android:id="@+id/knotsInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="19dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toTopOf="@+id/nauticalMilesHeader"
+        app:layout_constraintStart_toStartOf="@+id/nauticalMilesHeader" />
+
+    <Button
+        android:id="@+id/convertButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="1dp"
+        android:text="@string/convert_button"
+        app:layout_constraintEnd_toEndOf="@+id/compassHeadingInput"
+        app:layout_constraintTop_toBottomOf="@+id/compassHeadingInput" />
+
+    <EditText
+        android:id="@+id/nauticalMilesInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nauticalMilesHeader" />
+
+    <TextView
+        android:id="@+id/nauticalMilesOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="37dp"
+        android:text="@string/empty_value"
+        app:layout_constraintStart_toStartOf="@+id/statueMilesHeader"
+        app:layout_constraintTop_toBottomOf="@+id/statueMilesHeader" />
+
+    <TextView
+        android:id="@+id/compassHeadingOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:text="@string/empty_value"
+        app:layout_constraintEnd_toEndOf="@+id/nauticalMilesOutput"
+        app:layout_constraintStart_toStartOf="@+id/nauticalMilesOutput"
+        app:layout_constraintTop_toBottomOf="@+id/ReciprocalHeadingHeader" />
+
+    <EditText
+        android:id="@+id/compassHeadingInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="42dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toStartOf="@+id/statueMilesHeader"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/compassHeadingHeader" />
+
+    <TextView
+        android:id="@+id/knotsHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp"
+        android:text="@string/knots_header"
+        app:layout_constraintBottom_toTopOf="@+id/knotsInput"
+        app:layout_constraintEnd_toStartOf="@+id/knotsInput"
+        app:layout_constraintStart_toStartOf="@+id/knotsInput" />
+
+    <TextView
+        android:id="@+id/mphHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="115dp"
+        android:text="@string/mph_header"
+        app:layout_constraintEnd_toEndOf="@+id/statueMilesHeader"
+        app:layout_constraintStart_toStartOf="@+id/statueMilesHeader"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nauticalMilesHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/nauticalMiles_header"
+        app:layout_constraintBottom_toBottomOf="@+id/statueMilesHeader"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/statueMilesHeader" />
+
+    <TextView
+        android:id="@+id/statueMilesHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="35dp"
+        android:text="@string/statuteMiles_header"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/knotsOutput" />
+
+    <TextView
+        android:id="@+id/compassHeadingHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="34dp"
+        android:text="@string/compassHeading_header"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nauticalMilesInput" />
+
+    <TextView
+        android:id="@+id/ReciprocalHeadingHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="29dp"
+        android:text="@string/reciprocalHeading_header"
+        app:layout_constraintBottom_toTopOf="@+id/compassHeadingInput"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/optionsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="48dp"
+        android:text="@string/options_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

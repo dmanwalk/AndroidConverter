@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Konverter</string>
+    <string name="mph_header">Meilen pro Stunde</string>
+    <string name="knots_header">Knoten</string>
+    <string name="nauticalMiles_header">Seemeilen</string>
+    <string name="statuteMiles_header">Statut Meilen</string>
+    <string name="compassHeading_header">Kompassrichtung</string>
+    <string name="reciprocalHeading_header">wechselseitige Kompassrichtung</string>
+    <string name="convert_button">Konvertieren!</string>
+    <string name="empty_value">0</string>
+    <string name="options_title">Optionen</string>
+    <string name="clear_text">Bildschirm löschen</string>
+    <string name="about">Über</string>
+    <string name="dialog_text">Diese Anwendung wurde von Damian Walker im November 2020 erstellt. Wie ordentlich ist das?</string>
+    <string name="pretty_neatButton">Ziemlich ordentlich!</string>
+    <string name="not_neatButton">Überhaupt nicht ordentlich.</string>
+
+</resources>
